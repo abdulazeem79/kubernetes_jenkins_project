@@ -1,5 +1,5 @@
-FROM centos:latest
-MAINTAINER abdulazeem79@outlook.com
+FROM centos:7
+LABEL maintainer=abdulazeem79@outlook.com
 RUN yum install -y httpd \
  zip\
  unzip
